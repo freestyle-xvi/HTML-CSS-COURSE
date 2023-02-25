@@ -1,0 +1,75 @@
+a:link{
+	color:#00eaff ;
+}
+a:visited{
+	color: red;
+}
+button:hover{
+	background-color: black ;
+	color: red;
+}
+button:active{
+	background-color: hotpink;
+	color: whitesmoke;
+}
+/*
+li:first-child{
+	background-color: black;
+	color: red;
+}
+li:last-child{
+	background-color: black;
+	color: blue;
+}
+li:nth-child(2){
+	background-color:black ;
+	color: red;
+}
+li:nth-child(6){
+	background-color:black ;
+	color: red;
+}
+li:nth-child(3){
+	background-color:black ;
+	color: red;
+}
+li:nth-child(4){
+	background-color: black;
+	color: blue;
+}
+li:nth-child(5){
+	background-color: black;
+	color: blue;
+}
+li:nth-child(7){
+	background-color: black;
+	color: blue;
+}
+li:nth-child(8){
+	background-color: black;
+	color: blue;
+}
+li:nth-child(9){
+	background-color: black;
+	color: blue;	
+}
+*/
+/*the odd property in the parentheses will target all odd numbers in the list*/
+/*li:nth-child(odd){
+	background-color: blue;
+	color: red;
+}
+/*the even property in the parentheses will target all even numbers in the list*/
+/*li:nth-child(even){
+	background-color: red;
+	color: blue;
+}*/
+li:nth-child(3n+2){ 
+ /*
+ 	nth-child(an+b)
+ 	a= cycle size
+ 	n= counter
+ 	b= affect value
+ 	*/
+ 	background-image: linear-gradient(to right,red,white);
+}

@@ -1,0 +1,34 @@
+h1{
+	font-family: Thedus;
+}
+
+
+ul{
+	list-style-type: none;	
+	padding: 0px;
+	margin: 0px;
+	overflow: hidden;
+	background-color: #485460 ;
+}
+li a{
+	float: left;
+	display: block;
+	color: white;
+	padding: 10px 15px;
+	text-align: center;
+	text-decoration: none;
+	border-right: 1px solid black;
+	min-width:60px ;
+	font-family: OCR A Extended;
+}
+li a:hover{
+	background-color:#1e272e ;
+
+	animation: myGlowAnimation;
+	animation-duration:3s ;
+	animation-iteration-count: infinite;
+
+}
+@keyframes myGlowAnimation{
+	50% {text-shadow: 0px 0px 20px red;}
+}

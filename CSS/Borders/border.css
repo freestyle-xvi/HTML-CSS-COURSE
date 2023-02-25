@@ -1,0 +1,48 @@
+body{
+	background-color: black;
+	color: white;
+}
+
+
+
+h1{
+	font-family: Gorehand ;
+	color: white;
+
+	border-bottom-style: dashed;
+	border-top-style: dashed;
+	border-left-style: outset;
+	border-left-width: 5px;
+	border-left-color: red;
+	border-right-style: outset;
+	border-right-width: 5px;
+	border-right-color: red;
+
+
+}
+
+
+
+p{
+	font-family: Apex Mk3 Medium; 
+	font-size: 20px;
+	
+	
+	padding: 5px; /*padding leaves space on the edges so the borders dont colide with the text*/
+	
+	border-style: solid;
+	border-style: dashed;
+	border-style: dotted;
+	border-style: double;
+	border-style: ridge;
+	border-style: groove;
+	border-style: inset;
+	border-style: outset;
+
+	border-width: 3px 5px 3px 5px;
+
+	border-color: red;
+
+	border-radius: 5px;
+
+}

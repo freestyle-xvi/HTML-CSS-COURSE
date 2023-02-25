@@ -1,0 +1,32 @@
+h1{
+	font-family: Apex Mk3 Medium;
+	text-align: center;
+	
+}
+p{
+	font-family: OCR A Extended;
+	color: white;
+	
+}
+
+html{
+	color: whitesmoke;
+	background-image: url(redtopo.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+
+	/*background: linear-gradient(black,red);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;means background wont move as u scroll lol*/
+}
+h1{
+	background:linear-gradient(red,black);
+}
+#mytext{
+	background:linear-gradient(to left,#2b5876,#4e4376);
+}

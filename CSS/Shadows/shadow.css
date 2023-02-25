@@ -1,0 +1,39 @@
+h1{
+	
+	font-family:No Surrender ;
+	font-size: 51px;
+
+	border : 1px solid;
+	width: 505px;
+	padding: 25px;
+	background-color: black;
+	color: white;
+	border-color: black;
+
+	text-shadow:0px 0px 15px blue,0px 0px 4px blue;
+	/* horizontal(px)
+		vertical(px)
+		blur (px)
+		color (name,rgb,hex)
+	*/
+	box-shadow:15px 15px 10px #666666;
+	/* horizontal(px)
+		vertical(px)
+		blur (px)
+		color (name,rgb,hex)
+	*/
+}
+p{
+	color: black;
+	font-family: OCR A Extended;
+	font-size: 35px;
+
+	border : 2px solid;
+	width: 500px;
+	padding: 20px;
+	border-color: black;
+
+	text-shadow:10px 10px 2px red, -10px -10px 2px blue;
+
+	box-shadow:15px 15px 10px #666666;
+}

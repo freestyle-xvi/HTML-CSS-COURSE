@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Forms</title>
+		<link rel="stylesheet" type="text/css" href="forms.css">
+	</head>
+	<body>
+		<!--a form sort of like an applictaion where u put in your information except there's no server that the info is being sent to ....as of yet-->
+		<form>
+			<label for="first_name">First Name:</label>
+			<input type="text" id="first_name" name="first_name" placeholder="Phoenix">
+
+			<br><br>
+			<label for="last_name">Last Name:</label>
+			<input type="text" id="last_name" name="last_name" placeholder="Callahan">
+
+			<br><br>
+
+			<label for="title">Title:</label> &nbsp &nbsp
+
+			<label for="Mr.">Mr.</label>
+			<input type="radio" value="Mr." id="Mr." name="title" >&nbsp &nbsp
+
+			<label for="Mrs.">Mrs.</label>
+			<input type="radio" value="Mrs." id="Mrs."name="title" >&nbsp &nbsp
+
+			<label for="Miss.">Miss.</label>
+			<input type="radio" value="Miss." id="Miss."name="title" >&nbsp &nbsp
+
+			<label for="PhD">PhD.</label>
+			<input type="radio" value="PhD" id="PhD" name="title">&nbsp &nbsp
+
+			<br><br>
+
+			<label for="payment">Payment:</label>&nbsp &nbsp
+			<select id="payment">
+			<option value="visa">Visa</option>
+			<option value="mastercard">Mastercard</option>
+			<option value="cod points">Cod Points</option>
+			<option value="cheque">Cheque</option>				
+			<!-- the select tag creates a drop down menu and the option tag gives options in that menu to choose from-->			</select>
+			
+			<br><br>
+
+			<label for="email">Email:</label>&nbsp &nbsp &nbsp &nbsp
+			<input type="email"  id="email" name="email" placeholder="mw>cw@gmail.com">
+			<!--placeholder gives an example of what text should be enetered-->
+
+			<br><br>
+
+			<label for="birthday">Birthday:</label>&nbsp &nbsp
+			<input type="date"  id="birthday" name="birthday">
+
+			<br><br>
+			<!--quantity is mainly used for online shops to select how much of an item you want to buy-->
+			<label for="quantity">Quantity:</label>&nbsp &nbsp
+			<input type="number"  id="quantity" name="quantity" min="0" max="99" value="1">
+			<!--min is is the minimum value that can be set and max is the maximum amount you can have and value is the preset value given when page is loaded-->
+
+			<br><br>
+
+			<label for="phone">Phone #</label>&nbsp &nbsp &nbsp  
+			<input type="tel" id="phone" name="phone" maxlength="10">
+
+			<br><br>
+
+			<label for="pass">Password:</label>&nbsp
+			<input type="Password" id="pass" name="pass" maxlength="12">
+			&nbspMax is 12 characters
+
+			<br><br>
+
+			<label for="slider">Rate us:</label>&nbsp &nbsp 
+			 &nbsp1<input type="range" step="25" value="50" >&nbsp5
+			 <!-- the range in the above line indicates how many positions the slider can go and the valu sets the default position for the slider when loading the page-->
+			<br><br>
+
+			<label for="subscibe">Subscribe</label>
+			<input type="checkbox" id="subscribe" name="subscribe">
+			<!-- creates a check box to selct wether youu have subed or not lol-->
+			<br><br>
+
+			<label for="myfile">Upload a file:</label>
+			<input type="file" id="myfile" name="myfile" accept=".txt">
+			<!--the above line allows u to upload a file and the accept tag willl filter which type of file is allowed to be uploaded-->
+			<br><br>
+
+			<input type="reset">
+
+			<br><br>
+
+			<input type="submit">
+
+
+
+
+			
+		</form>
+
+	</body>
+
+</html>
